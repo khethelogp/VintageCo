@@ -1,0 +1,182 @@
+/*html{overflow-x:hidden} */
+
+.slider {
+  padding: 15px;
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.slider h2 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 40px;
+}
+
+.my-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.my-display-container {
+  position: relative;
+}
+.my-tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.my-tooltip .my-text {
+  display: none;
+}
+.my-tooltip:hover .my-text {
+  display: inline-block;
+  visibility: visible;
+}
+
+/* displays*/
+.my-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.my-display-topleft {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.my-display-topright {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.my-display-bottomleft {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.my-display-bottomright {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.my-display-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.my-display-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(-0%, -50%);
+}
+
+.my-display-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+}
+
+.my-container,
+.my-panel {
+  padding: 0.01em 16px;
+}
+.my-panel {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.my-large {
+  font-size: 18px !important;
+}
+
+.my-padding-16 {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+.my-button:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+
+/* Colors */
+
+.my-orange,
+.my-hover-orange:hover {
+  color: #000 !important;
+  background-color: #ff9800 !important;
+}
+
+.my-teal,
+.my-hover-teal:hover {
+  color: #fff !important;
+  background-color: #009688 !important;
+}
+
+.my-yellow,
+.my-hover-yellow:hover {
+  color: #000 !important;
+  background-color: #ffeb3b !important;
+}
+
+.my-black,
+.my-hover-black:hover {
+  color: #fff !important;
+  background-color: #000 !important;
+}
+
+.my-grey,
+.my-hover-grey:hover,
+.my-gray,
+.my-hover-gray:hover {
+  color: #000 !important;
+  background-color: #9e9e9e !important;
+}
+
+.my-light-grey,
+.my-hover-light-grey:hover,
+.my-light-gray,
+.my-hover-light-gray:hover {
+  color: #000 !important;
+  background-color: #f1f1f1 !important;
+}
+
+.my-dark-grey,
+.my-hover-dark-grey:hover,
+.my-dark-gray,
+.my-hover-dark-gray:hover {
+  color: #fff !important;
+  background-color: #616161 !important;
+}
