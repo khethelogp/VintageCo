@@ -1,5 +1,4 @@
 # VintageCo
-Vintage Store Website
 
 ### developed using HTML, CSS and JavaScript
 [Demo :eyes:](https://khethelogp.github.io/VintageCo/)
